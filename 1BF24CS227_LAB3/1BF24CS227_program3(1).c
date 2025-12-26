@@ -19,7 +19,7 @@ int enqueue(item){
     }
 }
 void dequeue(){
-    if((front==-1)|| front>rear+1){
+    if((front==-1)|| front>rear){
         printf("Queue underflow");
 
     }
